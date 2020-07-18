@@ -23,7 +23,6 @@ import org.elsmancs.practica.controlador.Controlador;
 import org.elsmancs.practica.dominio.MagicalItem;
 import org.elsmancs.practica.dominio.Order;
 import org.elsmancs.practica.dominio.Wizard;
-import org.elsmancs.practica.repositorio.NotEnoughDexterityException;
 import org.elsmancs.practica.repositorio.Repositorio;
 import org.elsmancs.practica.servicio.Servicio;
 import org.junit.jupiter.api.Test;

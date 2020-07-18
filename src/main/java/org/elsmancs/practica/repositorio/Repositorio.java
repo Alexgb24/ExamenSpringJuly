@@ -46,4 +46,8 @@ public class Repositorio {
 		}
 	}
     
+    public MagicalItem cargaItem(Long id) {
+        return em.find(MagicalItem.class, id);
+    }
+    
 }
