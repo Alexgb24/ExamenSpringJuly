@@ -14,5 +14,18 @@ public class Servicio {
     public MagicalItem cargaItem(Long id) {
         return repo.cargaItem(id);
     }
+    
+    
+    public boolean isSavedItem(String item_name) {
+    	if (repo.loadItem(item_name) == null) {
+    		return false;
+    	} else {
+    		return true;
+        }
+    }
 
+
+	public void createItem(String name, int quality, String type) {
+		repo.createItem(name, quality, type);	
+	}
 }
